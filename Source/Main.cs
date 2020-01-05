@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using Harmony;
 using HugsLib;
 using RimWorld;
@@ -22,6 +23,12 @@ namespace CarryCapacityFix
                 __result = 0f;
                 return false;
             }
+            /* Smash Phil Edit */
+            if(p.def.HasComp(Type.GetType("RimShips.CompShips, RimShips")))
+            {
+                return true;
+            }
+            /*=================*/
 
             __result = p.BodySize * p.GetStatValue(StatDefOf.CarryingCapacity);
             if (explanation != null)
