@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Modifies the base and modified values of CarryMass to be the same as the vanilla CarryingCapacity -->
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/StatDef[defName="CarryMass"]/defaultBaseValue</xpath>
+	<value><defaultBaseValue>75</defaultBaseValue></value>
+  </Operation>
+  <!-- Check out whether FloatMaxOne should be replaced -->
+  <Operation Class="PatchOperationAdd">
+	<xpath>/Defs/StatDef[defName="CarryMass"]</xpath>
+	<value><minValue>1</minValue></value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+	<xpath>/Defs/StatDef[defName="CarryMass"]</xpath>
+	<value>
+	  <capacityFactors>
+		<li>
+		  <capacity>Manipulation</capacity>
+		  <weight>1.0</weight>
+		</li>
+      </capacityFactors>
+	</value>
+  </Operation>
+</Patch>
