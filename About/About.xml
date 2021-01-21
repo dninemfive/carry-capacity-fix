@@ -18,6 +18,7 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>brrainz.harmony</li>
+		<li>dninemfive.d9framework</li>
 	</loadAfter>
 	<description>
 This mod aims to increase pawn carrying capacity in inventory and through caravans.

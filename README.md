@@ -7,8 +7,9 @@ Suggested to use with "Pick Up And Haul".
 
 ### Important Info
 - Save-friendly (add or remove)  
-- No known incompatibilities  
+- No known incompatibilities
 
 ### Mod Support
 [Alpha Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856)  
-[Boats](https://steamcommunity.com/sharedfiles/filedetails/?id=1931133197)  
+[Boats](https://steamcommunity.com/sharedfiles/filedetails/?id=1931133197)
+[D9 Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2037445541) - uses the added Carry Mass stat instead of the vanilla Carry Capacity, but with the same effects.
