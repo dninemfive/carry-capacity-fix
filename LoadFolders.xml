@@ -1,0 +1,6 @@
+<loadFolders>
+  <default>
+    <li IfModNotLoaded="D9 Framework">1.2/without_d9_framework</li>
+    <li IfModLoaded="D9 Framework">1.2/with_d9_framework</li>
+  </default>
+</loadFolders>
